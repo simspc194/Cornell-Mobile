@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="clrGreen">#0f0</color>
+    <color name="clrForegroundButton">#5A1400</color>
+    <color name="clrWhite">#FFFFFF</color>
+    <color name="clrBlack">#000000</color>
+    <color name="clrBackgroundButton">#54BCEB</color>
+    <color name="clrSelectedListItem">#00FF00</color>
+    <color name="clrDivider">#FF909090</color>
+    <color name="clrText">#5A1400</color>
+    <color name="clrError">#FF0000</color>
+    <color name="clrRed">#FF0000</color>
+    <color name="clrIncorrectAnswer">#FF0000</color>
+    <color name="clrCorrectAnswer">#00FF00</color>
+    <color name="clrButtonTextColor">#5a1400</color>
+    <color name="clrButtonStart">#54BCEB</color>
+    <color name="clrButtonStop">#d1d2d3</color>
+    <color name="clrListItemPressed">#5A1400</color>
+    <color name="clrActivityBackground">#ffddffc1</color>
+    <color name="cceCream">#ffe7dece</color>
+</resources>

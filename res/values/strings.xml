@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bugs &amp; Beetles</string>
+    <string name="welcome">Welcome to\nBugs and Beetles</string>
+
+    <string name="black_swallowtail">Black Swallowtail: The caterpillar is usually found eating parsley and carrot tops.
+        The butterfly is large, quite beautiful, and a good pollinator.</string>
+
+    <string name="ladybug">Lady Bug: A beneficial insect that feeds on aphids, mealybugs mites, and soft-bodied
+        insects.  200-500 aphids can be consumed during the larval stage.</string>
+
+    <string name="monarch_butterfly">Monarch Butterfly: Eggs are laid on milkweed plants and the caterpillar eats these
+        exclusively.  The milkweed makes the caterpillar unpalatable to predators.  If there
+        are no milkweed plants, there are no monarchs.</string>
+
+    <string name="squash_bug">Squash Bug: Adults and nymphs suck sap from the leaves and stems of all  cucurbits,
+        especially squash and pumpkins.  Damage symptoms include the wilting of plant
+        leaves.</string>
+
+
+    <string name="asian_longhorn">Asian Longhorned Beetle: An invasive species extremely dangerous to hardwood trees.
+        It is known to attack and kill healthy maple trees, as well as poplar, willow, elm,
+        birch, ash, and horse chestnut. Suspect insects need to be reported.</string>
+
+    <string name="emerald_ash_borer">Emerald Ash Borer: An invasive species that attracts only ash trees.  This insect
+        has the potential to devastate the ash population in our forests as well as our
+        landscapes.  Suspect insects need to be reported.</string>
+
+    <string name="japanese_beetle">Japanese Beetle: Grubs feed on the roots of lawns, leaving dead patches.  The adult
+        feed on a wide variety of plants, leaving the leaves skeletonized.</string>
+
+    <string name="tomato_hornworm">Tomato Hornworm: This caterpillar can reach 3 to 4 inches at maturity and feeds on
+        tomato, eggplant, pepper, and potato plants.  The adult moth is the sphinx moth,
+        sometimes called the hummingbird moth, and can have a wingspan of 4 to 5 inches.</string>
+
+    <string name="cabbageworm">Cabbageworm: This caterpillar can completely defoliate plants and can eat their way
+        into a head of cabbage.  The adult moth is white with several black markings on its
+        wings.</string>
+
+    <string name="colorado_potato_beetle">Colorado Potato Beetle: The adults and larvae feed on the foliage of potatoes,
+        eggplant, tomatoes, and peppers.  Adult beetles overwinter in the soil.</string>
+
+    <string name="lily_leaf_beetle">Lily Leaf Beetle: The larvae and adult beetles feed on the leaves and flower buds of
+        lilies that grow from buds, quickly devastating the plants.  Daylilies are not
+        affected.</string>
+
+    <string name="lacewing">Lacewing: Lacewings are beneficial insects.  The larvae are predators of aphids,
+        mealybugs, and insect eggs.  The adult feeds on pollen and insects.</string>
+
+    <string name="ground_beetle">Ground Beetle: Ground beetles are beneficial insects that feed on serious lawn and
+        garden pests including cutworms, armyworms, and mole crickets.  Both the adults and
+        larvae are predatory.</string>
+
+    <string name="housefly">Housefly: Annoying pest indoors and out.  Proper sanitation, including removal of
+        food sources, can reduce breeding.  Window screens are effective in keeping the
+        flies out.  Once inside, a flyswatter is the least expensive control option.</string>
+
+    <string name="boxelderbug">Boxelderbug: An outdoor pest of boxelder trees. A nuisance pest around the home,
+        usually in the fall as they seek  sheltered sites for overwintering.  Can occur in
+        large numbers.  </string>
+
+
+</resources>

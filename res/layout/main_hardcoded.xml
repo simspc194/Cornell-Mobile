@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/maple" android:gravity="top">
+
+
+    <TextView
+            android:text="Welcome to Match That Bug!"
+            android:id="@+id/textView"
+            style="@style/activity_header"/>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/play"
+            android:src="@drawable/play"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"/>
+
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true" >
+
+        <ImageView
+                android:layout_width="85dip"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:padding="0dip"
+                android:id="@+id/aboutus"
+                android:src="@drawable/aboutus"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp" />
+
+        <ImageView
+                android:layout_width="85dip"
+                android:layout_height="40dp"
+                android:background="@android:color/transparent"
+                android:id="@+id/instructions"
+                android:src="@drawable/instructions"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="right"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+
+</LinearLayout>

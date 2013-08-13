@@ -1,0 +1,60 @@
+<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+            android:text="Configurations"
+            style="@style/activity_header"
+            android:id="@+id/textView_config" />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How many pairs would you like displayed?"
+            android:id="@+id/textVie_pair_prompt"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            style="@style/other_other_inner_text"/>
+
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/number_of_pairs"
+            android:id="@+id/numberofpairs"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please select a level of play"
+            android:layout_gravity="left|center_vertical"
+            android:gravity="center"
+            style="@style/other_other_inner_text"/>
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/level_of_play"
+            android:id="@+id/levelofplay"/>
+
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true" >
+
+    <ImageView
+            android:layout_width="105dp"
+            android:layout_height="60dp"
+            android:background="@android:color/transparent"
+            android:padding="0dip"
+            android:id="@+id/submit"
+            android:src="@drawable/submit"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="15dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>

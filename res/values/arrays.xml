@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="matches">
+        <item>@drawable/asianlonghorn_adult</item>
+        <item>@drawable/asianlonghorn_larvae</item>
+        <item>@string/asian_longhorn</item>
+
+        <item>@drawable/blackswallowtail_adult</item>
+        <item>@drawable/blackswallowtail_larvae</item>
+        <item>@string/black_swallowtail</item>
+
+        <item>@drawable/emeraldashborer_adult</item>
+        <item>@drawable/emeralddashborer_larvae</item>
+        <item>@string/emerald_ash_borer</item>
+
+        <item>@drawable/housefly_adult</item>
+        <item>@drawable/housefly_larvae</item>
+        <item>@string/housefly</item>
+
+
+        <item>@drawable/ladybugadult</item>
+        <item>@drawable/ladybug_larvae</item>
+        <item>@string/ladybug</item>
+
+        <item>@drawable/lilyleafbeetle_adult</item>
+        <item>@drawable/lilyleafbeetle_larvae</item>
+        <item>@string/lily_leaf_beetle</item>
+
+        <item>@drawable/monarchbutterfly_adult</item>
+        <item>@drawable/monarchbutterfly_larvae</item>
+        <item>@string/monarch_butterfly</item>
+
+        <item>@drawable/squashbug_adult</item>
+        <item>@drawable/squashbug_larvae</item>
+        <item>@string/squash_bug</item>
+
+        <item>@drawable/boxelderbug_adult</item>
+        <item>@drawable/boxelderbug_larvae</item>
+        <item>@string/boxelderbug</item>
+
+        <item>@drawable/cabbageworm_adult</item>
+        <item>@drawable/cabbageworm_larvae</item>
+        <item>@string/cabbageworm</item>
+
+        <item>@drawable/coloradopotatobeetle_adult</item>
+        <item>@drawable/coloradopotatobeetle_larvae</item>
+        <item>@string/colorado_potato_beetle</item>
+
+        <item>@drawable/groundbeetle_adult</item>
+        <item>@drawable/groundbeetle_larvae</item>
+        <item>@string/ground_beetle</item>
+
+        <item>@drawable/tomatohornworm_adult</item>
+        <item>@drawable/tomatohornworm_larvae</item>
+        <item>@string/tomato_hornworm</item>
+
+        <item>@drawable/japanesebeetle_adult</item>
+        <item>@drawable/japanesebeetle_larvae</item>
+        <item>@string/japanese_beetle</item>
+
+        <item>@drawable/lacewing_adult</item>
+        <item>@drawable/lacewing_larvae</item>
+        <item>@string/lacewing</item>
+    </array>
+
+
+    <string-array name="number_of_pairs">
+        <item>2</item>
+        <item>4</item>
+        <item>8</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="level_of_play">
+        <item>Beginner</item>
+        <item>Advanced</item>
+    </string-array>
+
+</resources>

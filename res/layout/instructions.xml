@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instructions for \nBugs &amp; Beetles"
+            style="@style/activity_header"
+            android:id="@+id/textView"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="308dp"
+            android:text="Match-That-Bug is a concentration-like game in which the user matches the adult bug with the larvae as quickly and efficiently as they can. Matching the bugs quickly with as few clicks as possible will result in a higher score."
+            style="@style/inner_text"
+            android:id="@+id/textView1"
+            android:layout_gravity="left|center_vertical"></TextView>
+</LinearLayout>

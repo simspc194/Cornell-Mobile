@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/results"
+        >
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:background="@android:color/transparent"
+                  android:id="@+id/results">
+        <TextView
+                android:text="Results!"
+                style="@style/activity_header"
+                android:id="@+id/textView"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Congradulations! You finished this round in:"
+                android:id="@+id/textView1"
+                android:layout_gravity="left|center_vertical"
+                android:gravity="center"
+                style="@style/other_inner_text"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blah Blah"
+                android:id="@+id/seconds"
+                android:layout_gravity="center"
+                style="@style/other_other_inner_text"
+                />
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seconds!"
+                android:id="@+id/labelSeconds"
+                android:layout_gravity="center"
+                style="@style/other_other_inner_text"/>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:background="@android:color/transparent"
+                  android:id="@+id/matchesLayout">
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_gravity="bottom"
+                android:gravity="bottom"
+                android:layout_alignParentBottom="true">
+            <ImageView
+                    android:layout_width="143dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/play_again"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/play_again"
+                    android:padding="0dip"
+                    android:layout_margin="10dp"
+                    android:background="@null"/>
+            <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:id="@+id/home"
+                    android:layout_gravity="right|center_vertical"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:src="@drawable/home"
+                    android:padding="0dip"
+                    android:layout_margin="10dp"
+                    android:background="@null"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

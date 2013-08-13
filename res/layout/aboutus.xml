@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+        >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@android:color/transparent">
+    <TextView
+            android:text="About Us: Cornell Cooperative Extension"
+            style="@style/activity_header"
+            android:id="@+id/textView" />
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Cornell Cooperative Extension Clinton County connects people to each other and to research-based information to help us solve problems together. We adapt our programs to provide equal program opportunity and to be where community members are. We offer an educational experience that is customized for an individual’s needs, abilities, and interests. To enable Clinton County residents to improve their lives and communities through partnerships that put experience and research based knowledge to work. \n \n4-H Youth Development: To create supportive learning environments in which diverse youth and adults reach their fullest potential as capable, competent, caring citizens. \n \nNutrition: To utilize the latest research based information to empower Clinton County residents in creating and maintaining healthy life styles and communities. \n \nHorticulture: To connect Clinton County home gardeners and market producers to the latest research based information to help ensure a stable local food supply, protect the environment and create a vibrant landscape. \n \nAgriculture: To connect Clinton County agriculture producers to the latest research based information to ensure a viable and sustainable agriculture community. "
+            android:id="@+id/textView1"
+            style="@style/inner_text" android:layout_marginTop="-120dp"/>
+
+
+    <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:background="@android:color/transparent"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:layout_alignParentBottom="true" >
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:padding="0dip"
+                android:text="http://blogs.cornell.edu/cceclintoncounty/"
+                style="@style/inner_text"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_gravity="left"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/link"
+                android:autoLink="web"/>
+              </RelativeLayout>
+</LinearLayout>
+</ScrollView>

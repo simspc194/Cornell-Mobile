@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="activity_header">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#0B3206</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="inner_text">
+        <item name= "android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#0B3206</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_margin">18dp</item>
+    </style>
+
+    <style name="other_inner_text">
+        <item name= "android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#0B3206</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_marginTop">18dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="other_other_inner_text">
+        <item name= "android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:typeface">normal</item>
+        <item name="android:textColor">#0B3206</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_marginLeft">18dp</item>
+        <item name="android:layout_marginRight">18dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+
+    <style name="table_text">
+        <item name= "android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">10dp</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:textColor">#0B3206</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_margin">18dp</item>
+    </style>
+
+    <style name="ActivityTheme"
+           parent="android:Theme.Light.NoTitleBar">
+        <item name="android:background">@color/clrActivityBackground</item>
+    </style>
+
+    <style name="vf_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_margin">2dp</item>
+
+    </style>
+
+</resources>
